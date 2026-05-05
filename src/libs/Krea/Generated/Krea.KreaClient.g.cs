@@ -48,7 +48,7 @@ namespace Krea
         /// <summary>
         /// 
         /// </summary>
-        public AssetsClient Assets => new AssetsClient(HttpClient, authorizations: Authorizations, options: Options)
+        public AssetsClient Assets => new AssetsClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -57,7 +57,7 @@ namespace Krea
         /// <summary>
         /// 
         /// </summary>
-        public EnhanceClient Enhance => new EnhanceClient(HttpClient, authorizations: Authorizations, options: Options)
+        public EnhanceClient Enhance => new EnhanceClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -66,7 +66,7 @@ namespace Krea
         /// <summary>
         /// 
         /// </summary>
-        public ImageClient Image => new ImageClient(HttpClient, authorizations: Authorizations, options: Options)
+        public ImageClient Image => new ImageClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -75,7 +75,7 @@ namespace Krea
         /// <summary>
         /// 
         /// </summary>
-        public JobsClient Jobs => new JobsClient(HttpClient, authorizations: Authorizations, options: Options)
+        public JobsClient Jobs => new JobsClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -84,7 +84,7 @@ namespace Krea
         /// <summary>
         /// 
         /// </summary>
-        public NodeAppsClient NodeApps => new NodeAppsClient(HttpClient, authorizations: Authorizations, options: Options)
+        public NodeAppsClient NodeApps => new NodeAppsClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -93,7 +93,7 @@ namespace Krea
         /// <summary>
         /// 
         /// </summary>
-        public StylesClient Styles => new StylesClient(HttpClient, authorizations: Authorizations, options: Options)
+        public StylesClient Styles => new StylesClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -102,7 +102,7 @@ namespace Krea
         /// <summary>
         /// 
         /// </summary>
-        public VideoClient Video => new VideoClient(HttpClient, authorizations: Authorizations, options: Options)
+        public VideoClient Video => new VideoClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -141,10 +141,10 @@ namespace Krea
         /// <param name="options">Client-wide request defaults such as headers, query parameters, retries, and timeout.</param>
         /// <param name="disposeHttpClient">Dispose the HttpClient when the instance is disposed. True by default.</param>
         public KreaClient(
-            global::System.Net.Http.HttpClient? httpClient = null,
-            global::System.Uri? baseUri = null,
-            global::System.Collections.Generic.List<global::Krea.EndPointAuthorization>? authorizations = null,
-            global::Krea.AutoSDKClientOptions? options = null,
+            global::System.Net.Http.HttpClient? httpClient,
+            global::System.Uri? baseUri,
+            global::System.Collections.Generic.List<global::Krea.EndPointAuthorization>? authorizations,
+            global::Krea.AutoSDKClientOptions? options,
             bool disposeHttpClient = true)
         {
 
