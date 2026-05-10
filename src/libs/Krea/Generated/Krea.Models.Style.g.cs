@@ -77,5 +77,6 @@ namespace Krea
         public Style()
         {
         }
+
     }
 }

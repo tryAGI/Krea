@@ -48,5 +48,6 @@ namespace Krea
         public StyleList()
         {
         }
+
     }
 }

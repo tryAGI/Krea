@@ -93,5 +93,6 @@ namespace Krea
         public KlingVideoRequest()
         {
         }
+
     }
 }

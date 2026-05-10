@@ -50,5 +50,6 @@ namespace Krea
         public JobList()
         {
         }
+
     }
 }

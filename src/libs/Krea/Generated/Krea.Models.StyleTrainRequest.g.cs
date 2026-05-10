@@ -63,5 +63,6 @@ namespace Krea
         public StyleTrainRequest()
         {
         }
+
     }
 }

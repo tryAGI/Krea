@@ -111,5 +111,6 @@ namespace Krea
         public NanoBananaProRequest()
         {
         }
+
     }
 }
