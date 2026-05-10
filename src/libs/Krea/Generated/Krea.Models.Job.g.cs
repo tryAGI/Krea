@@ -89,5 +89,6 @@ namespace Krea
         public Job()
         {
         }
+
     }
 }

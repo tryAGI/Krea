@@ -97,5 +97,6 @@ namespace Krea
         public Veo3Request()
         {
         }
+
     }
 }

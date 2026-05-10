@@ -66,5 +66,6 @@ namespace Krea
         public NodeApp()
         {
         }
+
     }
 }

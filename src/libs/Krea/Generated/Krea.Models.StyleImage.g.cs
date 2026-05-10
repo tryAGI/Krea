@@ -52,5 +52,6 @@ namespace Krea
         public StyleImage()
         {
         }
+
     }
 }

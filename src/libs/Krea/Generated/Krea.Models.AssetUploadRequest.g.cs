@@ -65,5 +65,6 @@ namespace Krea
         public AssetUploadRequest()
         {
         }
+
     }
 }

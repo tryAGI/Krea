@@ -132,5 +132,6 @@ namespace Krea
         public Asset()
         {
         }
+
     }
 }
