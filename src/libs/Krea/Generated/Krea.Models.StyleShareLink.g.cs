@@ -39,5 +39,6 @@ namespace Krea
         public StyleShareLink()
         {
         }
+
     }
 }

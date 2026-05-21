@@ -163,5 +163,6 @@ namespace Krea
         public FluxKontextRequest()
         {
         }
+
     }
 }

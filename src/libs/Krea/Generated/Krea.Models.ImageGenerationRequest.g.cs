@@ -123,5 +123,6 @@ namespace Krea
         public ImageGenerationRequest()
         {
         }
+
     }
 }

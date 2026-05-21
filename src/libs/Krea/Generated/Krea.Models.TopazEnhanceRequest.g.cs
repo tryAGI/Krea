@@ -246,5 +246,6 @@ namespace Krea
         public TopazEnhanceRequest()
         {
         }
+
     }
 }

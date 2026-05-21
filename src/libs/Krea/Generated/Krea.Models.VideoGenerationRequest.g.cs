@@ -112,5 +112,6 @@ namespace Krea
         public VideoGenerationRequest()
         {
         }
+
     }
 }

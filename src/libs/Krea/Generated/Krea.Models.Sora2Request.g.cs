@@ -74,5 +74,6 @@ namespace Krea
         public Sora2Request()
         {
         }
+
     }
 }
