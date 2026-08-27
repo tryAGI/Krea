@@ -4,7 +4,7 @@
 namespace Krea
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class NodeAppInputs
     {

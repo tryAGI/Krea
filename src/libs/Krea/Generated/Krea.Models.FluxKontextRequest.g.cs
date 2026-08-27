@@ -9,7 +9,7 @@ namespace Krea
     public sealed partial class FluxKontextRequest
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("prompt")]
         [global::System.Text.Json.Serialization.JsonRequired]
@@ -62,13 +62,13 @@ namespace Krea
         public double? GuidanceScaleFlux { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("relaxedModeAccess")]
         public bool? RelaxedModeAccess { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("styleImages")]
         public global::System.Collections.Generic.IList<global::Krea.StyleImage>? StyleImages { get; set; }
@@ -80,7 +80,7 @@ namespace Krea
         public global::System.Collections.Generic.IList<global::Krea.StyleImage>? ImageStyleRefs { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("styles")]
         public global::System.Collections.Generic.IList<global::Krea.StyleReference>? Styles { get; set; }

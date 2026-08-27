@@ -9,15 +9,15 @@ namespace Krea
     public enum TopazEnhanceRequestSubjectDetection
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         All,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Background,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Foreground,
     }

@@ -9,39 +9,39 @@ namespace Krea
     public enum JobStatus
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Backlogged,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Cancelled,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Completed,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Failed,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         IntermediateComplete,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Processing,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Queued,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Sampling,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Scheduled,
     }

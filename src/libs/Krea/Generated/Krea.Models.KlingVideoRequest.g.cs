@@ -4,25 +4,25 @@
 namespace Krea
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class KlingVideoRequest
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("prompt")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Prompt { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("startImage")]
         public string? StartImage { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("endImage")]
         public string? EndImage { get; set; }

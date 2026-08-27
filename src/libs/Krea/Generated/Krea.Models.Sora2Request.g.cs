@@ -4,19 +4,19 @@
 namespace Krea
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class Sora2Request
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("prompt")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Prompt { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("startImage")]
         public string? StartImage { get; set; }

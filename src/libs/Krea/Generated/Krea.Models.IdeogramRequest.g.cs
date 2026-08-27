@@ -4,12 +4,12 @@
 namespace Krea
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class IdeogramRequest
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("prompt")]
         [global::System.Text.Json.Serialization.JsonRequired]
@@ -40,7 +40,7 @@ namespace Krea
         public double? Seed { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("styleImages")]
         public global::System.Collections.Generic.IList<global::Krea.StyleImage>? StyleImages { get; set; }

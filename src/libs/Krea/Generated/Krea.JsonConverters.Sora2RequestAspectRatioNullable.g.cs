@@ -20,7 +20,7 @@ namespace Krea.JsonConverters
                     {
                         return global::Krea.Sora2RequestAspectRatioExtensions.ToEnum(stringValue);
                     }
-                    
+
                     break;
                 }
                 case global::System.Text.Json.JsonTokenType.Number:

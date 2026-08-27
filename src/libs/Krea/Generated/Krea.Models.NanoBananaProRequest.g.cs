@@ -4,12 +4,12 @@
 namespace Krea
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class NanoBananaProRequest
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("prompt")]
         [global::System.Text.Json.Serialization.JsonRequired]
@@ -22,19 +22,19 @@ namespace Krea
         public double? BatchSize { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("width")]
         public double? Width { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("height")]
         public double? Height { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("aspectRatio")]
         [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Krea.JsonConverters.NanoBananaProRequestAspectRatioJsonConverter))]
@@ -54,7 +54,7 @@ namespace Krea
         public global::System.Collections.Generic.IList<string>? ImageUrls { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("styleImages")]
         public global::System.Collections.Generic.IList<global::Krea.StyleImage>? StyleImages { get; set; }

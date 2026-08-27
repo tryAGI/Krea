@@ -43,7 +43,7 @@ namespace Krea
         internal global::System.Lazy<global::System.Text.Json.Serialization.JsonSerializerContext> JsonSerializerContextProvider { get; set; } = new(() => global::Krea.SourceGenerationContext.Default);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public global::System.Text.Json.Serialization.JsonSerializerContext JsonSerializerContext
         {
@@ -53,7 +53,7 @@ namespace Krea
 
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public AssetsClient Assets => new AssetsClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
@@ -62,7 +62,7 @@ namespace Krea
         };
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public EnhanceClient Enhance => new EnhanceClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
@@ -71,7 +71,7 @@ namespace Krea
         };
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ImageClient Image => new ImageClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
@@ -80,7 +80,7 @@ namespace Krea
         };
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public JobsClient Jobs => new JobsClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
@@ -89,7 +89,7 @@ namespace Krea
         };
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public NodeAppsClient NodeApps => new NodeAppsClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
@@ -98,7 +98,7 @@ namespace Krea
         };
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public StylesClient Styles => new StylesClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
@@ -107,7 +107,7 @@ namespace Krea
         };
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public VideoClient Video => new VideoClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {

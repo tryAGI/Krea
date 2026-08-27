@@ -9,11 +9,11 @@ namespace Krea
     public enum Veo3RequestResolution
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         x1080p,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         x720p,
     }

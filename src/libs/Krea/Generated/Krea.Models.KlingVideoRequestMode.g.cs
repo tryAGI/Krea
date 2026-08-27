@@ -9,11 +9,11 @@ namespace Krea
     public enum KlingVideoRequestMode
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Master,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Pro,
     }

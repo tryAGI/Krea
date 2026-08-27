@@ -45,43 +45,43 @@ namespace Krea
 
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         global::System.Text.Json.Serialization.JsonSerializerContext JsonSerializerContext { get; set; }
 
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public AssetsClient Assets { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public EnhanceClient Enhance { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ImageClient Image { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public JobsClient Jobs { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public NodeAppsClient NodeApps { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public StylesClient Styles { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public VideoClient Video { get; }
 
