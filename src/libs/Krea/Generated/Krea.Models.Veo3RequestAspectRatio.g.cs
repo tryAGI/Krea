@@ -9,15 +9,15 @@ namespace Krea
     public enum Veo3RequestAspectRatio
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         x16_9,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         x1_1,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         x9_16,
     }

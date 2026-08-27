@@ -20,7 +20,7 @@ namespace Krea.JsonConverters
                     {
                         return global::Krea.JobStatusExtensions.ToEnum(stringValue);
                     }
-                    
+
                     break;
                 }
                 case global::System.Text.Json.JsonTokenType.Number:

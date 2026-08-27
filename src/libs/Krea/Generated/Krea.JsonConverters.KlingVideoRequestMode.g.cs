@@ -20,7 +20,7 @@ namespace Krea.JsonConverters
                     {
                         return global::Krea.KlingVideoRequestModeExtensions.ToEnum(stringValue) ?? default;
                     }
-                    
+
                     break;
                 }
                 case global::System.Text.Json.JsonTokenType.Number:

@@ -9,7 +9,7 @@ namespace Krea
     public sealed partial class AssetList
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("items")]
         public global::System.Collections.Generic.IList<global::Krea.Asset>? Items { get; set; }
